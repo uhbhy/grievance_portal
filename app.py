@@ -113,7 +113,7 @@ def main():
 
             name = st.text_input("Full Name")
             email = st.text_input("Email Address")
-            category = st.selectbox("Category of Grievance", ["Academic", "Administrative", "Technical", "Other"])
+            category = st.selectbox("Category of Grievance", ["Emotional Negligence 💔", "Communication Breakdown 📵", "Quality Time Deficit 🕰️","Unfulfilled Promises 🎯", "Other"])
             date_of_incident = st.date_input("Date of Incident", value=datetime.date.today())
             description = st.text_area("Description of the Issue", height=150)
             attachment = st.file_uploader("Attach relevant documents/screenshots (optional)")
